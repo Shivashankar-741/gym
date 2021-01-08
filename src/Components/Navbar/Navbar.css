@@ -4,6 +4,11 @@
 	align-items: center;
 	/* background-color: #333; */
 	padding: 30px 0;
+
+	/* position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 15%; */
 }
 
 .Navbar--list {
@@ -17,7 +22,7 @@
 	font-weight: 800;
 }
 
-.Navbar--list__in:hover {
+a:hover {
 	color: red;
 	transition: all 0.5s;
 }
@@ -38,4 +43,8 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	color: #fff;
 }

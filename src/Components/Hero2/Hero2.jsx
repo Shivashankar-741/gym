@@ -3,7 +3,7 @@ import "./Hero2.css";
 
 const Hero2 = () => {
 	return (
-		<div className="Hero2">
+		<div className="Hero2" id="blog">
 			<div className="Hero2--girl">
 				<div className="Hero2--girl__tag">
 					<h2 className="Hero2--girl__tag1">FOR GIRL</h2>

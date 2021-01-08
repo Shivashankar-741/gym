@@ -9,13 +9,27 @@ const Navbar = () => {
 				<img src={gymLogo} alt="gymlogo" className="Navbar--logo__in" />
 			</div>
 			<ul className="Navbar--list">
-				<li className="Navbar--list__in">HOME</li>
-				<li className="Navbar--list__in">AB0UT</li>
-				<li className="Navbar--list__in">PRICING</li>
-				<li className="Navbar--list__in">GALLERY</li>
-				<li className="Navbar--list__in">PAGES</li>
-				<li className="Navbar--list__in">BLOG</li>
-				<li className="Navbar--list__in">CONTACT</li>
+				<li className="Navbar--list__in">
+					<a href="">HOME</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="#about">AB0UT</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="">PRICING</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="">GALLERY</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="">PAGES</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="#blog">BLOG</a>
+				</li>
+				<li className="Navbar--list__in">
+					<a href="">CONTACT</a>
+				</li>
 			</ul>
 			<div className="Navbar--btn">
 				<button className="Navbar--btn__in">JOIN US</button>

@@ -7,7 +7,7 @@ import gym3 from "../../assets/gymsidelogo3.svg";
 
 const Hero3 = () => {
 	return (
-		<div className="Hero3">
+		<div className="Hero3" id="about">
 			<div className="Hero3--tag">
 				<div className="Hero3--tag__in">
 					<div className="Hero3--tag1">
