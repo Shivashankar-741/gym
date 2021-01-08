@@ -1,54 +1,124 @@
-.Hero1 {
-	background-image: linear-gradient(
-			rgba(255, 0, 0, 0.267),
-			rgba(255, 0, 0, 0.452)
-		),
-		url("../../assets//gymhero1.png");
-	min-height: 100vh;
-	background-position: center;
-	background-size: cover;
+/* 600 768 992 1200 */
+
+@media only screen and (max-width: 992px) {
+	.Navbar--list,
+	.Navbar--btn {
+		display: none;
+	}
 }
 
-.Hero1--tag {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-}
+@media only screen and (max-width: 600px) {
+	.Hero1 {
+		background-image: linear-gradient(
+				rgba(255, 0, 0, 0.267),
+				rgba(255, 0, 0, 0.452)
+			),
+			url("../../assets//gymhero1.png");
+		min-height: 100vh;
+		background-position: center;
+		background-size: cover;
+	}
 
-.Hero1--tag1__in {
-	font-size: 50px;
-	margin: 0;
-	font-weight: 1000;
-}
-.Hero1--tag2__in {
-	font-size: 150px;
-	margin: 0;
-	font-weight: 800;
-}
-.Hero1--tag3__in {
-	font-size: 20px;
-	/* margin: 0; */
-}
+	.Hero1--tag {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		/* margin: 30px 0; */
+	}
 
-.Hero1--btn__in {
-	padding: 15px 40px;
-	background-color: red;
-	color: #fff;
-	font-weight: 800;
-	border: none;
-	outline: none;
-	cursor: pointer;
-}
+	.Hero1--tag1__in {
+		font-size: 50px;
+		margin: 0;
+		font-weight: 1000;
+	}
+	.Hero1--tag2__in {
+		font-size: 50px;
+		margin: 0;
+		font-weight: 800;
+	}
+	.Hero1--tag3__in {
+		font-size: 20px;
+		/* margin: 0; */
+	}
 
-.Hero1--btn__in:hover {
-	background-color: transparent;
-	border: 2px solid red;
-	color: red;
-	transition: all 0.3s;
-}
+	.Hero1--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
 
-.Hero1--btn {
-	margin: 20px 0;
+	.Hero1--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+
+	.Hero1--btn {
+		margin: 20px 0;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.Hero1 {
+		background-image: linear-gradient(
+				rgba(255, 0, 0, 0.267),
+				rgba(255, 0, 0, 0.452)
+			),
+			url("../../assets//gymhero1.png");
+		min-height: 100vh;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.Hero1--tag {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+	}
+
+	.Hero1--tag1__in {
+		font-size: 50px;
+		margin: 0;
+		font-weight: 1000;
+	}
+	.Hero1--tag2__in {
+		font-size: 150px;
+		margin: 0;
+		font-weight: 800;
+	}
+	.Hero1--tag3__in {
+		font-size: 20px;
+		/* margin: 0; */
+	}
+
+	.Hero1--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.Hero1--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+
+	.Hero1--btn {
+		margin: 20px 0;
+	}
 }
