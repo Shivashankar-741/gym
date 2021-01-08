@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+	.Hero4 {
+		position: relative;
+		color: #fff;
+		background-image: url(../../assets/gymhero4.png);
+		width: 100%;
+		min-height: 80vh;
+		background-size: center;
+		background-position-x: -150px;
+		background-repeat: no-repeat;
+	}
+
+	.Hero4--tag1__in {
+		margin: 0;
+		width: 300px;
+		font-size: 35px;
+		font-weight: 1000;
+	}
+	.Hero4--tag3__in {
+		width: 300px;
+	}
+	.Hero4--tag2__in {
+		margin: 0;
+		width: 300px;
+		font-size: 50px;
+		color: red;
+	}
+
+	.Hero4 {
+		/* width: 400px; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center; /* position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(10%, -40%); */
+	}
+	.Hero4--in {
+		/* width: 400px; */
+		width: 65%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center; /* position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(10%, -40%); */
+	}
+
+	.Hero4--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.Hero4--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.Hero4 {
+		position: relative;
+		color: #fff;
+		background-image: url(../../assets/gymhero4.png);
+		width: 100%;
+		min-height: 100vh;
+		background-size: center;
+		background-position-x: -200px;
+		background-repeat: no-repeat;
+	}
+
+	.Hero4--tag1__in {
+		margin: 0;
+		width: 380px;
+		font-size: 45px;
+		font-weight: 1000;
+	}
+	.Hero4--tag2__in {
+		margin: 0;
+		width: 300px;
+		font-size: 60px;
+		color: red;
+	}
+
+	.Hero4--in {
+		width: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(10%, -40%);
+	}
+
+	.Hero4--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.Hero4--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+}
