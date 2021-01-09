@@ -3,6 +3,7 @@ import Hero1 from "./Components/Hero1/Hero1.jsx";
 import Hero2 from "./Components/Hero2/Hero2.jsx";
 import Hero3 from "./Components/Hero3/Hero3.jsx";
 import Hero4 from "./Components/Hero4/Hero4";
+import Pricing from "./Components/Pricing/Pricing";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<Hero2 />
 			<Hero3 />
 			<Hero4 />
+			<Pricing/>
 		</div>
 	);
 }
