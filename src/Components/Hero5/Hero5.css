@@ -1,0 +1,98 @@
+@media only screen and (max-width: 600px) {
+	.Hero5 {
+		background-image: linear-gradient(
+				rgba(255, 0, 0, 0.048),
+				rgba(255, 0, 0, 0.055)
+			),
+			url("../../assets//gymhero6.png");
+		min-height: 100vh;
+		background-position: center;
+		background-size: center;
+        height: 50vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+	}
+
+	.Hero5--in {
+		width: 350px;
+		text-align: center;
+	}
+
+	.Hero5--tag1__in {
+		margin: 0;
+		font-size: 35px;
+	}
+
+	.Hero5--btn {
+		margin: 10px 0;
+	}
+
+	.Hero5--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.Hero5--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.Hero5 {
+		background-image: linear-gradient(
+				rgba(255, 0, 0, 0.116),
+				rgba(255, 0, 0, 0.103)
+			),
+			url("../../assets//gymhero6.png");
+		min-height: 100vh;
+		background-position: center;
+		background-size: cover;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+	}
+
+	.Hero5--in {
+		width: 420px;
+		text-align: center;
+	}
+
+	.Hero5--tag1__in {
+		margin: 0;
+		font-size: 50px;
+	}
+
+	.Hero5--btn {
+		margin: 10px 0;
+	}
+
+	.Hero5--btn__in {
+		padding: 15px 40px;
+		background-color: red;
+		color: #fff;
+		font-weight: 800;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.Hero5--btn__in:hover {
+		background-color: transparent;
+		border: 2px solid red;
+		color: red;
+		transition: all 0.3s;
+	}
+}

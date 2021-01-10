@@ -1,0 +1,14 @@
+.Contacts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 200px 70px;
+	background-color: black;
+	color: #fff;
+}
+
+.Contacts--address,
+.Contacts--links,
+.Contacts--input {
+	width: 25%;
+}
