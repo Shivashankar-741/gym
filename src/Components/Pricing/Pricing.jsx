@@ -3,7 +3,7 @@ import "./Pricing.css";
 
 const Pricing = () => {
 	return (
-		<div className="Pricing">
+		<div className="Pricing" id="pricing">
 			<div className="Pricing--tag">
 				<div className="Pricing--tag1">
 					<h1 className="Pricing--tag1__in">OUR PRICING</h1>

@@ -9,7 +9,7 @@ import gallery6 from "../../assets/grid6.png";
 
 const Gallery = () => {
 	return (
-		<div className="Gallery">
+		<div className="Gallery" id="gallery">
 			<img src={gallery1} alt="img1" className="Gallery--img1 imgs" />
 			<img src={gallery2} alt="img1" className="Gallery--img2 imgs" />
 			<img src={gallery3} alt="img1" className="Gallery--img3 imgs" />

@@ -7,7 +7,7 @@ import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 const Trainers = () => {
 	return (
-		<div className="Trainers">
+		<div className="Trainers" id="pages">
 			<div className="Trainers--tag">
 				<h1 className="Trainers--tag__1">OUR TRAINERS</h1>
 				<p className="Trainers--tag__2">
